@@ -22,10 +22,11 @@ Then do ```bundle install``` to install the required gems. If you don't have bun
 
 Examples:
 ```
+bundle exec twitterapi.rb -h
 bundle exec twitterapi.rb -c lookup_ids -u 12,20
 bundle exec twitterapi.rb -c lookup_ids -u 13
 ```
-etc.
+etc. Prefixing with 'bundle exec' is not required but recommended.
 
 ## References
 1. [Twitter API v1.1](https://dev.twitter.com/docs/api/1.1)
