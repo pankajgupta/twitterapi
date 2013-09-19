@@ -5,7 +5,7 @@ A simple ruby script to programmatically use Twitter API (version 1.1) using sim
 
 ## Set up
 
-First, you need to set up your oauth credentials. My ~/oauth_credentials.yml file looks like this. You need to 
+First, you need to set up your oauth credentials. My ~/oauth_credentials.yml file looks like this.
 
 ```
 :consumer_key: .......
@@ -14,17 +14,17 @@ First, you need to set up your oauth credentials. My ~/oauth_credentials.yml fil
 :token_secret: ...................
 ```
 
-You can get the consumer_key and consumer_secret from following instructions on the [Twiter developers site](https://dev.twitter.com/docs/auth/tokens-devtwittercom). If you don't have any application already, you will need to create a new dummy app in order to get consumer key and secret.
+You can get the consumer_key and consumer_secret from following instructions on the [Twiter dev site](https://dev.twitter.com/docs/auth/tokens-devtwittercom). If you don't have any application already, you will need to create a new dummy app in order to get consumer key and secret.
 
 Then do ```bundle install``` to install the required gems. If you don't have bundler, simply install using ```gem install bundler```. Look at the [bundler site](http://bundler.io/) for more details.
 
 ## Usage
 
-Example:
-
+Examples:
+```
 bundle exec twitterapi.rb -c lookup_ids -u 12,20
 bundle exec twitterapi.rb -c lookup_ids -u 13
-
+```
 etc.
 
 ## References
